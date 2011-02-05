@@ -1,0 +1,26 @@
+set linebreak
+
+"some stuff to get the mouse going in term
+set mouse=a
+set ttymouse=xterm2
+
+"map to bufexplorer
+nnoremap <C-B> :BufExplorer<cr>
+
+set t_Co=256
+colorscheme railscasts256
+"dont load csapprox if we no gui support - silences an annoying warning
+let g:CSApprox_loaded = 1
+
+function! StripTrailingWhitespace()
+  normal mZ
+  %s/\s\+$//e
+  if line("'Z") != line(".")
+    echo "Stripped whitespace\n"
+  endif
+  normal `Z
+endfunction
+command! StripTrailingWhitespace call StripTrailingWhitespace()
+
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>

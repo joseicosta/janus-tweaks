@@ -1,0 +1,8 @@
+" Remove menu bar
+set guioptions-=m
+
+" Remove toolbar
+set guioptions-=T
+
+colorscheme railscasts256
+set gfn=Monospace\ 9
