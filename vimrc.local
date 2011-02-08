@@ -4,6 +4,8 @@ set linebreak
 set mouse=a
 set ttymouse=xterm2
 
+set nofoldenable
+
 "map to bufexplorer
 nnoremap <C-B> :BufExplorer<cr>
 
