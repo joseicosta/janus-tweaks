@@ -40,3 +40,4 @@ if has("ruby") " assume system has ruby
 endif
 
 let g:ruby_path = &path
+let g:yankring_max_history = 10
