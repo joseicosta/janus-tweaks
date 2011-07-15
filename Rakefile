@@ -198,6 +198,7 @@ end
 vim_plugin_task 'bufexplorer', 'git://github.com/vim-scripts/bufexplorer.zip.git'
 vim_plugin_task 'matchit', 'git://github.com/vim-scripts/matchit.zip.git'
 vim_plugin_task 'ruby', 'git://github.com/vim-ruby/vim-ruby.git'
+vim_plugin_task "yankring", 'git://github.com/chrismetcalf/vim-yankring.git'
 
 #vim_plugin_task 'githublink' do
 #  sh 'curl https://github.com/tenderlove/dot_vim/raw/master/plugin/githublink.vim > ~/.vim/plugin/githublink.vim'
