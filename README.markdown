@@ -10,7 +10,7 @@ So, here's what I'm adding:
 
 * Bufexplorer plugin, by default mapped to `<C-B>`.
 * Matchit plugin
-* Gist plugin
+* Yankring plugin
 * Railscast theme by Nick Moffitt, which supplies 256-color terminal equivalents for most of the colors.
 * Local configuration files (will override ~/.vimrc.local and ~/.gvimrc.local if present).
 
